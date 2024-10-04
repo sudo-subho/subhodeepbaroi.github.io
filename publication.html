@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Subho - Pentester Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/">
+                <div class="left">Subho's <span class="top-nav">Portfolio</span></div>
+            </a>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/publication.html">Publication</a></li>
+                    <li><a href="https://github.com/sudo-subho?tab=repositories">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+    <main>
+        <section class="secondSection">
+            <hr>
+            <span class="text-gray">What i have publication so far?</span>
+            <h1>Publication (CVE's)</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="/img/icon_bug.png" alt="">
+                    <div class="vertical-title">
+                        CVE-2024-37855
+                    </div>
+                    <div class="vertical-desc">
+                        unauthenticated RCE in a router.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/img/icon_bug.png" alt="">
+                    <div class="vertical-title">
+                        CVE-2024-40119
+                    </div>
+                    <div class="vertical-desc">
+                        csrf to admin account takeover.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/img/icon_bug.png" alt="">
+                    <div class="vertical-title">
+                        CVE-2024-42657
+                    </div>
+                    <div class="vertical-desc">
+                        Allows attackers to obtain sensitive information during the login process.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/img/icon_bug.png" alt="">
+                    <div class="vertical-title">
+                        CVE-2024-42658
+                    </div>
+                    <div class="vertical-desc">
+                        Attacker can obtain sensitive information via the cookies parameter.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Subho's <span class="top-footer">Portfolio</span></h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/publication.html">Publication</a></li>
+                    <li><a href="https://github.com/sudo-subho?tab=repositories">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+        <div class="footer-text-center">
+            copyright &#169 www.sudo-subho.github.io | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Security <i>Researcher', '&amp; a Web devloper.'],
+            typeSpeed: 50,
+            loop: true,
+            loopCount: Infinity,
+        });
+    </script>
+</body>
+
+</html>
